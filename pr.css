@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+}
+
+#quiz {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#quiz h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#quiz p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+#quiz .answer {
+    margin-bottom: 20px;
+}
+
+#quiz button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
